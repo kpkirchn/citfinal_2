@@ -1,0 +1,228 @@
+#store-app{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.instrument{
+  height:350px;
+  width:250px;
+  position:relative;
+  font-family: Roboto;
+  display:flex;
+  background-color: Gray;
+  color: white;
+  font-weight: bold;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  border-radius:8px;
+  box-shadow:rgba(0,0,0,.5) 4px 4px 16px;
+  border-style:solid;
+  border-image:linear-gradient(indigo, white) 1;
+  overflow:hidden;
+  margin-left:20px;
+
+}
+
+.display{
+  background-color: gray;
+  width: 300px;
+  height: 500px;
+}
+
+.display img{
+  position:relative;
+  font-family: Roboto;
+  display:flex;
+  background-color: gray;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.wrapper{
+  align-items: center;
+}
+
+img{
+  height: 200px;
+  max-width: 100%;
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+  
+}
+
+.noImage{
+  height: 200px;
+  max-width: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content:center;
+  cursor: pointer;
+  
+}
+.name{
+  height: 100px;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.Fender:hover{
+  background-color: red;
+}
+.Yamaha:hover{
+  background-color: green;
+}
+
+.Maton:hover{
+  background-color: blue;
+}
+
+.storeName{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Metal Mania;
+  color: White;
+}
+.background{
+  background-color: Black;
+}
+
+
+.popUp{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 193);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.addInstrument{
+  height:350px;
+  width:350px;
+  position:relative;
+  font-family: Roboto;
+  display:flex;
+  background-color: Gray;
+  color: White;
+  font-weight: bold;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  border-radius:8px;
+  box-shadow:rgba(0,0,0,.5) 4px 4px 16px;
+  border-style:solid;
+  border-image:linear-gradient(indigo, white) 1;
+  overflow:hidden;
+  margin-left:20px;
+}
+input{
+  float: left;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.type{
+  margin-left: 40px;
+}
+label{
+  
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+
+.h2{
+  height: 100px;
+  font-family: Roboto;
+  font-color: White;
+  display: flex;
+  text-align: justify;
+  bottom: 0;
+  margin: -20px;
+}
+
+.cart{
+  position:fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-family: Metal Mania;
+  font-size: 21px;
+  height: 30px;
+  
+}
+.button{
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+  border: solid 2.5px;
+  border-color: indigo;
+}
+.add{
+  position:fixed;
+  top: 10px;
+  font-family: Metal Mania;
+  font-size: 21px;
+  right: 110px;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+}
+
+
+.form{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 193);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.exit{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+
+
+}
+
+.exit:hover{
+  background-color: red;
+}
+body{
+  background-image: url('https://i.pinimg.com/originals/f7/f3/b5/f7f3b5001c4f79f3141fde246702e4d8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.empty{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Metal Mania;
+  color: White;
+  justify-content: center;
+  margin-left: 760px;
+  flex: right;
+}
